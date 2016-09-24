@@ -209,6 +209,8 @@ $(window).load(function () {
 		sizer: $sizer
 	});
 
+	$('#speaker').hide();
+
 	$filterType.change(function(e) {
 		var group = $('#filter input[name="filter"]:checked').val();
 
